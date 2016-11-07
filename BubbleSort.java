@@ -18,7 +18,7 @@ public class BubbleSort {
 		return theArray;
 	}
 	
-  // swaps the value of the array at index i and index j
+  // swap the value of the array at index i and index j
 	public void swapValues(int i, int j) {
 		int temp = theArray[i];
 		theArray[i] = theArray[j];
