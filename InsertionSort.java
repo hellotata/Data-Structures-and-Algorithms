@@ -20,7 +20,7 @@ public class InsertionSort {
             // theArray[j-1] ensures that we are comparing the value of the index prior to the toInsert index
 			while(j > 0 && theArray[j-1] > toInsert) {
 				
-                // If the prior index value is greater, change the value and continue comparing until we find
+				// If the prior index value is greater, change the value and continue comparing until we find
                 // the desired index for the toInsert value
 				theArray[j] = theArray[j-1];
 				j--;
