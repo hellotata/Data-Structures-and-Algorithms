@@ -54,14 +54,14 @@ public class Stacks {
 		return peek;
 	}
 	
-	 	// Pop all items in the stack
+	// Pop all items in the stack
     	public void popAll() {
     		for(int i = topOfStack; i >= 0 ; i--) {
     			pop();
     		}
     	}
 
-    		// Prints the array
+    	// Prints the array
     	public void print() {
 		System.out.print("[" );
 		for (int i = 0; i < theStack.length; i++) {
