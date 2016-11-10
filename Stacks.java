@@ -13,7 +13,6 @@ public class Stacks {
         
         	// Fills the empty array with "X". "X" indicates an empty index in the array.
 		Arrays.fill(theStack, "X");
-
 	}
     
     	// Push new strings into the array
@@ -54,8 +53,15 @@ public class Stacks {
 		System.out.println(peek);
 		return peek;
 	}
+	
+	 	// Pop all items in the stack
+    public void popAll() {
+    	for(int i = topOfStack; i >= 0 ; i--) {
+    		pop();
+    	}
+    }
 
-    // Prints the array
+    	// Prints the array
     public void print() {
 		System.out.print("[" );
 		for (int i = 0; i < theStack.length; i++) {
